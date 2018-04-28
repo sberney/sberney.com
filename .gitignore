@@ -3,3 +3,4 @@ node_modules
 *.swn
 *.swo
 static/dist
+static/libraries
