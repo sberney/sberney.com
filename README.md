@@ -1,3 +1,3 @@
 # sberney.com
 
-Trivial javascript website
+Trivial javascript website [here](http://sberney.com)

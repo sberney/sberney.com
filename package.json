@@ -18,6 +18,10 @@
   },
   "author": "Sam B Berney",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sberney/sberney.com"
+  },
   "engines": {
     "node": "8.11.1"
   },
