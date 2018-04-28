@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "build": "jspm bundle-sfx ./static/app/main.js ./static/dist/sberneycom.js --minify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified yet\"",
+    "ci-build": "yarn install && yarn build && yarn test"
   },
   "author": "Sam B Berney",
   "license": "MIT",
