@@ -4,10 +4,11 @@
   "description": "Trivial javascript website",
   "main": "index.js",
   "scripts": {
+    "install": "yarn build",
     "start": "node index.js",
     "build": "jspm bundle-sfx ./static/app/main.js ./static/dist/sberneycom.js --minify",
     "test": "echo \"No test specified yet\"",
-    "ci-build": "yarn install && yarn build && yarn test",
+    "ci-build": "yarn install && yarn test",
     "watch": "npm-scripts-watcher"
   },
   "watch": {
