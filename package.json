@@ -7,7 +7,11 @@
     "start": "node index.js",
     "build": "jspm bundle-sfx ./static/app/main.js ./static/dist/sberneycom.js --minify",
     "test": "echo \"No test specified yet\"",
-    "ci-build": "yarn install && yarn build && yarn test"
+    "ci-build": "yarn install && yarn build && yarn test",
+    "watch": "npm-scripts-watcher"
+  },
+  "watch": {
+    "static/app/**/*": ["build"]
   },
   "author": "Sam B Berney",
   "license": "MIT",
@@ -16,7 +20,8 @@
     "morgan": "^1.9.0"
   },
   "devDependencies": {
-    "jspm": "^0.16.53"
+    "jspm": "^0.16.53",
+    "npm-scripts-watcher": "^1.0.2"
   },
   "jspm": {
     "directories": {
